@@ -22,5 +22,5 @@ function breakingRecords(scores) {
       return result;
 }
 
-array = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42];
+let array = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42];
 console.log(breakingRecords(array));

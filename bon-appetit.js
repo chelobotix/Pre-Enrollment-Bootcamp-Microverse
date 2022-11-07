@@ -20,5 +20,5 @@ function bonAppetit(bill, k, b) {
 
 
 }
-array = [3, 10, 2, 9]
+let array = [3, 10, 2, 9]
 bonAppetit(array, 1, 12)

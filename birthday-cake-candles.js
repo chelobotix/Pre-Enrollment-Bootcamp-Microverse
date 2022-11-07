@@ -11,5 +11,5 @@ function birthdayCakeCandles(candles) {
       return sum;
 
 }
-array = [3, 2, 1, 3];
+let array = [3, 2, 1, 3];
 console.log(birthdayCakeCandles(array));
