@@ -8,8 +8,8 @@ function birthdayCakeCandles(candles) {
             }
 
       }
-      return sum
+      return sum;
 
 }
-array = [3, 2, 1, 3]
+array = [3, 2, 1, 3];
 console.log(birthdayCakeCandles(array));

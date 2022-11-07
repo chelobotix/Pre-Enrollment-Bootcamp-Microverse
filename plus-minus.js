@@ -5,12 +5,12 @@ function plusMinus(arr) {
       let negative = 0;
       for (let i = 0; i < arr.length; i++) {
             if (arr[i] > 0)
-                  positive++
+                  positive++;
             else if (arr[i] < 0) {
-                  negative++
+                  negative++;
             }
             else {
-                  zero++
+                  zero++;
             }
       }
       console.log((positive / arr.length).toFixed(6));
@@ -20,5 +20,5 @@ function plusMinus(arr) {
 
 }
 
-arr = [-4, 3, -9, 0, 4, 1]
-plusMinus(arr)
+arr = [-4, 3, -9, 0, 4, 1];
+plusMinus(arr);
